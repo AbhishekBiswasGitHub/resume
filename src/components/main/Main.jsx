@@ -1,12 +1,13 @@
 import PropTypes from "prop-types";
 
 import "./Main.css";
-import Intro from "./intro/Intro";
+import Intro from "./components/intro/Intro";
+import Skills from "./components/skills/Skills";
 
 const Main = ({ main }) => {
   const {
     intro,
-    // skills,
+    skills,
     // experiences,
     // education,
     // projects,
@@ -15,6 +16,7 @@ const Main = ({ main }) => {
   return (
     <main id="main">
       <Intro intro={intro} />
+      <Skills skills={skills} />
     </main>
   );
 };

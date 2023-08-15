@@ -1,0 +1,45 @@
+.heading {
+  padding-bottom: clamp(
+    0.072rem,
+    0.2vw,
+    0.384rem
+  );
+
+  border-bottom: clamp(0.108rem, 0.3vw, 0.576rem)
+    solid var(--color-text-heading);
+
+  color: var(--color-text-heading);
+
+  font-size: calc(var(--font-size-heading) * 0.8);
+  font-weight: 100;
+  text-transform: uppercase;
+
+  transition-property: padding, border, font-size;
+  transition-duration: var(--transition-duration);
+  transition-timing-function: var(
+    --transition-timing-function
+  );
+  transition-delay: var(--transition-delay);
+}
+
+.heading-first-letter {
+  font-size: var(--font-size-heading);
+
+  transition-property: font-size;
+  transition-duration: var(--transition-duration);
+  transition-timing-function: var(
+    --transition-timing-function
+  );
+  transition-delay: var(--transition-delay);
+}
+
+.heading > i {
+  padding-right: clamp(0.36rem, 1vw, 1.92rem);
+
+  transition-property: padding;
+  transition-duration: var(--transition-duration);
+  transition-timing-function: var(
+    --transition-timing-function
+  );
+  transition-delay: var(--transition-delay);
+}
