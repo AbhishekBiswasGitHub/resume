@@ -1,0 +1,22 @@
+#contacts {
+  display: grid;
+  grid-template-columns: repeat(2, max-content);
+  gap: clamp(0.72rem, 2vw, 3.84rem);
+
+  transition-property: width, height;
+  transition-duration: var(--transition-duration);
+  transition-timing-function: var(
+    --transition-timing-function
+  );
+  transition-delay: var(--transition-delay);
+}
+
+#personal-contacts,
+#social-contacts {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: clamp(0.18rem, 0.5vw, 0.96rem);
+
+  list-style-type: none;
+}

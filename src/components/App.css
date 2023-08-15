@@ -1,0 +1,20 @@
+#App {
+  width: 100%;
+  min-width: 36rem;
+  max-width: 192rem;
+  height: 141vw;
+  min-height: 50.76rem;
+  max-height: 270.72rem;
+
+  padding: clamp(2.16rem, 6vw, 11.52rem);
+
+  background-color: var(--color-background);
+  color: var(--color-text-content);
+
+  transition-property: padding;
+  transition-duration: var(--transition-duration);
+  transition-timing-function: var(
+    --transition-timing-function
+  );
+  transition-delay: var(--transition-delay);
+}

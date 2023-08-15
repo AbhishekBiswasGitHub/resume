@@ -1,6 +1,25 @@
 :root {
-  --color-text: #333;
-  --color-background: #ccc;
+  --color-text-heading: #1a1a65;
+  --color-text-content: #000;
+  --color-background: #fff;
+  --font-size-heading: clamp(
+    1.26rem,
+    3.5vw,
+    6.72rem
+  );
+  --font-size-sub-heading: clamp(
+    0.9rem,
+    2.5vw,
+    4.8rem
+  );
+  --font-size-content: clamp(
+    0.54rem,
+    1.5vw,
+    2.88rem
+  );
+  --transition-duration: 200ms;
+  --transition-timing-function: ease;
+  --transition-delay: 100ms;
 }
 
 * {
@@ -15,8 +34,8 @@ html {
 
 body {
   position: relative;
-  min-width: 360px;
-  min-height: 100svh;
+
+  background-color: #000;
 }
 
 #root {
@@ -29,9 +48,6 @@ body {
   justify-content: center;
 
   width: 100%;
-
-  background-color: var(--color-background);
-  color: var(--color-text);
 
   scroll-behavior: smooth;
 }

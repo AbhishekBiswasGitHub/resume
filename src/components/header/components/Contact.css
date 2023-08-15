@@ -1,0 +1,20 @@
+.contact {
+  font-size: var(--font-size-content);
+
+  transition-property: font-size;
+  transition-duration: var(--transition-duration);
+  transition-timing-function: var(
+    --transition-timing-function
+  );
+  transition-delay: var(--transition-delay);
+}
+
+.contact > a {
+  color: var(--color-text-heading);
+
+  text-decoration: none;
+}
+
+.contact > a > i {
+  padding-right: clamp(0.18rem, 0.5vw, 0.96rem);
+}
