@@ -1,0 +1,194 @@
+{
+  "header": {
+    "profile": {
+      "name": {
+        "first": "Abhishek",
+        "last": "Biswas"
+      },
+      "role": "React JS Developer"
+    },
+    "contacts": {
+      "personal": [
+        {
+          "content": "abhishekbiswas.netlify.app",
+          "url": "https://abhishekbiswas.netlify.app",
+          "icon": "fa-solid fa-globe"
+        },
+        {
+          "content": "(+91) 8013623123",
+          "url": "tel:+918013623123",
+          "icon": "fa-solid fa-phone"
+        },
+        {
+          "content": "abhishek.biswas.mail@gmail.com",
+          "url": "mailto:abhishek.biswas.mail@gmail.com",
+          "icon": "fa-solid fa-at"
+        },
+        {
+          "content": "Barasat, Kolkata - 700125",
+          "url": "https://goo.gl/maps/hjXLLAfF7WWMSkJ66",
+          "icon": "fa-solid fa-location-dot"
+        }
+      ],
+      "social": [
+        {
+          "content": "linkedin.com/in/abhishek-biswas-ld",
+          "url": "https://linkedin.com/in/abhishek-biswas-ld",
+          "icon": "fa-brands fa-linkedin"
+        },
+        {
+          "content": "github.com/AbhishekBiswasGitHub",
+          "url": "https://github.com/AbhishekBiswasGitHub",
+          "icon": "fa-brands fa-github"
+        },
+        {
+          "content": "hackerrank.com/AbhishekBiswasHR",
+          "url": "https://hackerrank.com/AbhishekBiswasHR",
+          "icon": "fa-brands fa-hackerrank"
+        },
+        {
+          "content": "leetcode.com/AbhishekBiswasLC",
+          "url": "https://leetcode.com/AbhishekBiswasLC",
+          "icon": "fa-solid fa-code"
+        }
+      ]
+    }
+  },
+  "main": {
+    "intro": "Self-taught web developer specializing in React.js with 3+ years of prior software development experience.",
+    "skills": {
+      "expert": [],
+      "proficient": [
+        "JavaScript",
+        "ReactJS",
+        "HTML",
+        "CSS",
+        "NodeJS",
+        "GIT"
+      ],
+      "intermediate": [
+        "ReduxJS",
+        "ExpressJS",
+        "MongoDB",
+        "MongooseJS",
+        "SASS"
+      ],
+      "basic": ["GatsbyJS", "NextJS"],
+      "devTools": [
+        "VSCode",
+        "ESLint",
+        "Prettier",
+        "HuskyJS",
+        "lint-staged",
+        "Docker",
+        "postman",
+        "figma"
+      ],
+      "language": ["English", "Hindi", "Bengali"]
+    },
+    "experiences": [
+      {
+        "role": "Software Developer",
+        "employer": {
+          "name": "IDA BUSINESS SOLUTIONS PVT LTD",
+          "url": "https://idasolutions.in/"
+        },
+        "period": {
+          "start": "2018-08",
+          "end": "2021-08"
+        },
+        "achievements": [
+          {
+            "content": "Maintained and developed 30+ new features for \"pipeISO\", a program to convert 3D CAD to 2D (iso-metric) for piping design using CATIA",
+            "link": [
+              {
+                "text": "pipeISO",
+                "url": "http://idasolutions.in/pipeISO.html"
+              },
+              {
+                "text": "CATIA",
+                "url": "https://www.3ds.com/products-services/catia/"
+              }
+            ]
+          },
+          {
+            "content": "Developed 10+ new solutions for industries like Energy & power, Ship building, Mining, Automotive",
+            "link": []
+          }
+        ],
+        "technologies": [
+          {
+            "name": "CAD",
+            "url": ""
+          },
+          {
+            "name": "VB.NET",
+            "url": ""
+          },
+          {
+            "name": "CATIA",
+            "url": "https://www.3ds.com/products-services/catia/"
+          },
+          {
+            "name": "3D Experience",
+            "url": "https://www.3ds.com/3dexperience"
+          },
+          {
+            "name": "EKL",
+            "url": "https://plmcoach.com/3dexperience-ekl-basics/"
+          }
+        ]
+      }
+    ],
+    "education": [
+      {
+        "degree": "B.Tech",
+        "subject": "Computer Science & Engineering",
+        "institute": {
+          "name": " Government College of Engineering & Textile Technology, Berhampore",
+          "url": "http://gcettb.ac.in/"
+        },
+        "board": {
+          "name": "MAKAUT",
+          "url": "https://www.makautwb.ac.in/"
+        },
+        "year": "2017"
+      }
+    ],
+    "projects": [],
+    "certifications": [
+      {
+        "subject": "Responsive Web Design",
+        "url": "https://www.freecodecamp.org/certification/abmx/responsive-web-design",
+        "institute": {
+          "name": "freeCodeCamp",
+          "url": "https://www.freecodecamp.org/"
+        }
+      },
+      {
+        "subject": "Javascript Algorithms-and Data Structures",
+        "url": "https://www.freecodecamp.org/certification/abmx/javascript-algorithms-and-data-structures",
+        "institute": {
+          "name": "freeCodeCamp",
+          "url": "https://www.freecodecamp.org/"
+        }
+      },
+      {
+        "subject": "Front End Development Libraries",
+        "url": "https://www.freecodecamp.org/certification/abmx/front-end-development-libraries",
+        "institute": {
+          "name": "freeCodeCamp",
+          "url": "https://www.freecodecamp.org/"
+        }
+      },
+      {
+        "subject": "Lean Six Sigma (White Belt)",
+        "url": "https://www.credential.net/3fdfdcc0-bbe0-406a-afe0-e2e43ff27c08#gs.4fpips",
+        "institute": {
+          "name": "Six Sigma Society",
+          "url": "https://www.sixsigmasociety.org/"
+        }
+      }
+    ]
+  }
+}
