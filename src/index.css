@@ -13,9 +13,9 @@
     4.8rem
   );
   --font-size-content: clamp(
-    0.54rem,
-    1.5vw,
-    2.88rem
+    0.648rem,
+    1.8vw,
+    3.456rem
   );
   --transition-duration: 200ms;
   --transition-timing-function: ease;

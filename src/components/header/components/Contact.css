@@ -1,5 +1,5 @@
 .contact {
-  font-size: var(--font-size-content);
+  font-size: clamp(0.54rem, 1.5vw, 2.88rem);
 
   transition-property: font-size;
   transition-duration: var(--transition-duration);
