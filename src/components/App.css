@@ -1,3 +1,17 @@
+@font-face {
+  font-family: Play;
+  src: url(../assets/Play-Regular.ttf);
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: Play;
+  src: url(../assets/Play-Bold.ttf);
+  font-weight: bold;
+  font-style: normal;
+}
+
 #App {
   width: 100%;
   min-width: 36rem;
@@ -10,6 +24,8 @@
 
   background-color: var(--color-background);
   color: var(--color-text-content);
+
+  font-family: Play;
 
   transition-property: padding;
   transition-duration: var(--transition-duration);

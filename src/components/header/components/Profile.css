@@ -47,7 +47,11 @@
 }
 
 #role {
-  padding-bottom: clamp(1.08rem, 3vw, 5.76rem);
+  padding-bottom: clamp(
+    0.72rem,
+    2vw,
+    3.84rem
+  ); /* clamp(1.08rem, 3vw, 5.76rem); */
 
   color: var(--color-text-heading);
 
