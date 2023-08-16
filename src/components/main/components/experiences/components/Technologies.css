@@ -1,0 +1,8 @@
+.technologies {
+  display: flex;
+  gap: clamp(0.36rem, 1vw, 1.92rem);
+
+  padding-top: clamp(0.18rem, 0.5vw, 0.96rem);
+
+  list-style-type: none;
+}

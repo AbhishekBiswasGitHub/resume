@@ -2,13 +2,6 @@
   display: flex;
   flex-direction: column;
   justify-content: center;
-
-  transition-property: width, height;
-  transition-duration: var(--transition-duration);
-  transition-timing-function: var(
-    --transition-timing-function
-  );
-  transition-delay: var(--transition-delay);
 }
 
 #name {
@@ -20,15 +13,6 @@
   line-height: calc(
     var(--font-size-heading) * 0.7
   );
-}
-
-#name * {
-  transition-property: font-size;
-  transition-duration: var(--transition-duration);
-  transition-timing-function: var(
-    --transition-timing-function
-  );
-  transition-delay: var(--transition-delay);
 }
 
 #first-name {
@@ -47,11 +31,7 @@
 }
 
 #role {
-  padding-bottom: clamp(
-    0.72rem,
-    2vw,
-    3.84rem
-  ); /* clamp(1.08rem, 3vw, 5.76rem); */
+  padding-bottom: clamp(0.72rem, 2vw, 3.84rem);
 
   color: var(--color-text-heading);
 
@@ -59,11 +39,4 @@
   line-height: calc(
     var(--font-size-sub-heading) * 0.7
   );
-
-  transition-property: padding, font-size;
-  transition-duration: var(--transition-duration);
-  transition-timing-function: var(
-    --transition-timing-function
-  );
-  transition-delay: var(--transition-delay);
 }

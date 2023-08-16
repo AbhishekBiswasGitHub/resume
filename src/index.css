@@ -1,9 +1,5 @@
 :root {
-  --padding-section: clamp(
-    0.36rem,
-    1vw,
-    1.92rem
-  ); /* clamp(0.72rem, 2vw, 3.84rem); */
+  --padding-section: clamp(0.36rem, 1vw, 1.92rem);
   --color-text-heading: #1a1a65;
   --color-text-content: #000;
   --color-background: #fff;
@@ -24,9 +20,6 @@
     1.8vw,
     3.456rem
   );
-  --transition-duration: 1000ms;
-  --transition-timing-function: ease;
-  --transition-delay: 100ms;
 }
 
 * {
@@ -53,8 +46,6 @@ body {
   display: flex;
   align-items: center;
   justify-content: center;
-
-  width: 100%;
 
   scroll-behavior: smooth;
 }

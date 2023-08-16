@@ -4,11 +4,4 @@
   justify-content: center;
 
   padding-top: clamp(1.8rem, 5vw, 6.912rem);
-
-  transition-property: padding;
-  transition-duration: var(--transition-duration);
-  transition-timing-function: var(
-    --transition-timing-function
-  );
-  transition-delay: var(--transition-delay);
 }

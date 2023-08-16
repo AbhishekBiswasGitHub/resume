@@ -1,0 +1,16 @@
+.technology {
+  padding: 0 clamp(0.18rem, 0.5vw, 0.96rem);
+
+  border: clamp(0.1rem, 0.1vw, 0.192rem) solid
+    var(--color-text-content);
+  border-radius: clamp(0.36rem, 1vw, 1.92rem);
+
+  font-size: var(--font-size-content);
+  font-weight: bold;
+}
+
+.technology > a {
+  color: inherit;
+
+  text-decoration: none;
+}

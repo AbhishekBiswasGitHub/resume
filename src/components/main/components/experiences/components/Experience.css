@@ -1,0 +1,7 @@
+.experience {
+  display: flex;
+}
+
+.experience-details {
+  padding-left: clamp(0.36rem, 1vw, 1.92rem);
+}

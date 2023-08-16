@@ -1,0 +1,17 @@
+.experience-period {
+  display: flex;
+  flex-direction: column;
+  gap: clamp(0.18rem, 0.5vw, 0.96rem);
+
+  flex-shrink: 0;
+  width: clamp(4.68rem, 13vw, 24.96rem);
+
+  padding-right: clamp(0.36rem, 1vw, 1.92rem);
+
+  border-right: clamp(0.1rem, 0.2vw, 0.384rem)
+    solid var(--color-text-content);
+
+  font-size: var(--font-size-content);
+  font-weight: bold;
+  text-align: right;
+}

@@ -2,13 +2,6 @@
   display: flex;
 
   padding-top: clamp(0.288rem, 0.8vw, 1.536rem);
-
-  transition-property: padding;
-  transition-duration: var(--transition-duration);
-  transition-timing-function: var(
-    --transition-timing-function
-  );
-  transition-delay: var(--transition-delay);
 }
 
 .skill-category-name {
@@ -18,40 +11,19 @@
   font-weight: bold;
   text-align: right;
   text-transform: capitalize;
-
-  transition-property: width, font-size;
-  transition-duration: var(--transition-duration);
-  transition-timing-function: var(
-    --transition-timing-function
-  );
-  transition-delay: var(--transition-delay);
 }
 
 .skills {
   padding-left: clamp(0.72rem, 2vw, 3.84rem);
 
   font-size: var(--font-size-content);
-
-  transition-property: padding, font-size;
-  transition-duration: var(--transition-duration);
-  transition-timing-function: var(
-    --transition-timing-function
-  );
-  transition-delay: var(--transition-delay);
 }
 
 .skill {
   padding: 0 clamp(0.36rem, 1vw, 1.92rem);
 
-  border-right: clamp(0.072rem, 0.2vw, 0.384rem)
+  border-right: clamp(0.1rem, 0.2vw, 0.384rem)
     solid var(--color-text-content);
-
-  transition-property: padding, border;
-  transition-duration: var(--transition-duration);
-  transition-timing-function: var(
-    --transition-timing-function
-  );
-  transition-delay: var(--transition-delay);
 }
 
 .skill:first-child {

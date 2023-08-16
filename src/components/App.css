@@ -26,11 +26,4 @@
   color: var(--color-text-content);
 
   font-family: Play;
-
-  transition-property: padding;
-  transition-duration: var(--transition-duration);
-  transition-timing-function: var(
-    --transition-timing-function
-  );
-  transition-delay: var(--transition-delay);
 }

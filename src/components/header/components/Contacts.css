@@ -2,13 +2,6 @@
   display: grid;
   grid-template-columns: repeat(2, max-content);
   gap: clamp(0.72rem, 2vw, 3.84rem);
-
-  transition-property: width, height;
-  transition-duration: var(--transition-duration);
-  transition-timing-function: var(
-    --transition-timing-function
-  );
-  transition-delay: var(--transition-delay);
 }
 
 #personal-contacts,

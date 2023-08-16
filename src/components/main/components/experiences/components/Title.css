@@ -1,0 +1,10 @@
+.employment-title {
+  font-size: var(--font-size-content);
+  font-weight: bold;
+}
+
+.employer {
+  color: inherit;
+
+  text-decoration: none;
+}
