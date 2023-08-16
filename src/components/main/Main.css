@@ -1,7 +1,9 @@
 #main {
+  align-self: start;
+
   display: flex;
   flex-direction: column;
   justify-content: center;
 
-  padding-top: clamp(1.8rem, 5vw, 6.912rem);
+  padding-top: clamp(1.8rem, 5vw, 9.6rem);
 }

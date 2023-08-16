@@ -8,11 +8,12 @@ const Achievements = ({ achievements }) => {
   return (
     <ul className="achievements">
       {achievements.map(
-        ({ content, link }, index) => (
+        ({ content, link, bold }, index) => (
           <Achievement
             key={index}
             content={content}
             link={link}
+            bold={bold}
           />
         )
       )}

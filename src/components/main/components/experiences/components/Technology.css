@@ -5,8 +5,8 @@
     var(--color-text-content);
   border-radius: clamp(0.36rem, 1vw, 1.92rem);
 
-  font-size: var(--font-size-content);
-  font-weight: bold;
+  font-size: calc(var(--font-size-content) * 0.8);
+  font-weight: 900;
 }
 
 .technology > a {

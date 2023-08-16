@@ -13,6 +13,9 @@
 }
 
 #App {
+  display: grid;
+  grid-template-rows: min-content auto min-content;
+
   width: 100%;
   min-width: 36rem;
   max-width: 192rem;
@@ -21,9 +24,14 @@
   max-height: 270.72rem;
 
   padding: clamp(2.16rem, 6vw, 11.52rem);
+  padding-bottom: 0;
 
   background-color: var(--color-background);
   color: var(--color-text-content);
 
   font-family: Play;
+}
+
+.bold {
+  font-weight: 900;
 }

@@ -2,10 +2,10 @@
   "header": {
     "profile": {
       "name": {
-        "first": "Abhishek",
-        "last": "Biswas"
+        "first": "abhishek",
+        "last": "biswas"
       },
-      "role": "React JS Developer"
+      "role": "reactJS developer"
     },
     "contacts": {
       "personal": [
@@ -55,37 +55,52 @@
     }
   },
   "main": {
-    "intro": "Self-taught web developer specializing in React.js with 3+ years of prior software development experience.",
-    "skills": {
-      "expert": [],
-      "proficient": [
-        "JavaScript",
-        "ReactJS",
-        "HTML",
-        "CSS",
-        "NodeJS",
-        "GIT"
-      ],
-      "intermediate": [
-        "ReduxJS",
-        "ExpressJS",
-        "MongoDB",
-        "MongooseJS",
-        "SASS"
-      ],
-      "basic": ["GatsbyJS", "NextJS"],
-      "devTools": [
-        "VSCode",
-        "ESLint",
-        "Prettier",
-        "HuskyJS",
-        "lint-staged",
-        "Docker",
-        "postman",
-        "figma"
-      ],
-      "language": ["English", "Hindi", "Bengali"]
-    },
+    "intro": "A self-taught ReactJS enthusiast eager to embark on a new journey within the realm of web development, backed by a robust 5+ year background in software development",
+    "skillCategories": [
+      { "category": "expert", "skills": [] },
+      {
+        "category": "proficient",
+        "skills": [
+          "JavaScript",
+          "ReactJS",
+          "HTML",
+          "CSS",
+          "NodeJS",
+          "GIT"
+        ]
+      },
+      {
+        "category": "intermediate",
+        "skills": [
+          "ReduxJS",
+          "ExpressJS",
+          "MongoDB",
+          "MongooseJS",
+          "SASS"
+        ]
+      },
+      {
+        "category": "basic",
+        "skills": ["GatsbyJS", "NextJS"]
+      },
+      {
+        "category": "devTools",
+        "skills": [
+          "VSCode",
+          "ESLint",
+          "Prettier",
+          "HuskyJS",
+          "lint-staged",
+          "Docker",
+          "postman",
+          "figma"
+        ]
+      },
+      {
+        "category": "language",
+        "skills": ["English", "Hindi", "Bengali"]
+      }
+    ],
     "experiences": [
       {
         "role": "Software Developer",
@@ -94,35 +109,33 @@
           "url": "https://idasolutions.in/"
         },
         "period": {
-          "start": "2018-08",
-          "end": "2021-08"
+          "start": "aug 2018",
+          "end": "aug 2021"
         },
         "achievements": [
           {
-            "content": "Maintained and developed 30+ new features for \"pipeISO\", a program to convert 3D CAD to 2D (iso-metric) for piping design using CATIA",
+            "content": "Over a span of 3 years, diligently nurtured and expanded \"pipeISO\" - an innovative software tool utilizing CATIA - enriching it with 30+ new features. This program seamlessly translates 3D CAD designs into precise 2D isometric representations, enhancing the efficiency of piping design.",
             "link": [
               {
                 "text": "pipeISO",
                 "url": "http://idasolutions.in/pipeISO.html"
-              },
-              {
-                "text": "CATIA",
-                "url": "https://www.3ds.com/products-services/catia/"
               }
-            ]
+            ],
+            "bold": ["3", "30+"]
           },
           {
-            "content": "Developed 10+ new solutions for industries like Energy & power, Ship building, Mining, Automotive",
-            "link": []
+            "content": "Engineered a diverse array of 10+ innovative solutions catering to dynamic industries such as Energy & Power, Shipbuilding, Mining, and Automotive.",
+            "link": [],
+            "bold": ["10+"]
           }
         ],
         "technologies": [
           {
-            "name": "CAD",
+            "name": "VB.NET",
             "url": ""
           },
           {
-            "name": "VB.NET",
+            "name": "CAD",
             "url": ""
           },
           {
@@ -136,6 +149,52 @@
           {
             "name": "EKL",
             "url": "https://plmcoach.com/3dexperience-ekl-basics/"
+          }
+        ]
+      },
+      {
+        "role": "Freelance Developer",
+        "employer": null,
+        "period": {
+          "start": "aug 2021",
+          "end": "present"
+        },
+        "achievements": [
+          {
+            "content": "Crafted custom VB.NET solutions for diverse clients across industries, streamlining processes and enhancing operational efficiency.",
+            "link": [],
+            "bold": []
+          },
+          {
+            "content": "Pioneered web development skills through hands-on creation of elegant and functional portfolio websites for varied clients.",
+            "link": [],
+            "bold": []
+          }
+        ],
+        "technologies": [
+          {
+            "name": "VB.NET",
+            "url": ""
+          },
+          {
+            "name": "HTML",
+            "url": ""
+          },
+          {
+            "name": "CSS",
+            "url": ""
+          },
+          {
+            "name": "JavaScript",
+            "url": ""
+          },
+          {
+            "name": "ReactJS",
+            "url": ""
+          },
+          {
+            "name": "GIT",
+            "url": ""
           }
         ]
       }
@@ -166,7 +225,7 @@
         }
       },
       {
-        "subject": "Javascript Algorithms-and Data Structures",
+        "subject": "Javascript Algorithms and Data Structures",
         "url": "https://www.freecodecamp.org/certification/abmx/javascript-algorithms-and-data-structures",
         "institute": {
           "name": "freeCodeCamp",
@@ -190,5 +249,12 @@
         }
       }
     ]
+  },
+  "footer": {
+    "author": {
+      "firstName": "abhishek",
+      "lastName": "biswas"
+    },
+    "updatedOn": "17th AUG 2023"
   }
 }

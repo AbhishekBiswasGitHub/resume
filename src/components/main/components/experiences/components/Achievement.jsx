@@ -1,5 +1,4 @@
 import PropTypes from "prop-types";
-
 import parse from "html-react-parser";
 
 import "./Achievement.css";
@@ -15,13 +14,27 @@ const addLinks = (content, link) => {
     );
   }
 
+  return newContent;
+};
+
+const addBold = (content, bold) => {
+  let newContent = content;
+
+  for (let i = 0; i < bold.length; i++) {
+    const text = bold[i];
+    newContent = newContent.replace(
+      text,
+      `<span className="bold">${text}</span>`
+    );
+  }
+
   return parse(newContent);
 };
 
-const Achievement = ({ content, link }) => {
+const Achievement = ({ content, link, bold }) => {
   return (
     <li className="achievement">
-      {addLinks(content, link)}
+      {addBold(addLinks(content, link), bold)}
     </li>
   );
 };
@@ -29,6 +42,7 @@ const Achievement = ({ content, link }) => {
 Achievement.propTypes = {
   content: PropTypes.string.isRequired,
   link: PropTypes.array.isRequired,
+  bold: PropTypes.array.isRequired,
 };
 
 export default Achievement;

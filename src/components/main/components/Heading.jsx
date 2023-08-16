@@ -5,7 +5,7 @@ import "./Heading.css";
 const Heading = ({ content, icon }) => {
   return (
     <h3 className="heading">
-      <i className={`fa-solid fa-${icon}`}></i>
+      <i className={icon}></i>
       <span className="heading-first-letter">
         {content[0]}
       </span>

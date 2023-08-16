@@ -10,7 +10,7 @@ const Educations = ({ educations }) => {
     <section id="educations">
       <Heading
         content="education"
-        icon="graduation-cap"
+        icon="fa-solid fa-graduation-cap"
       />
       <ul id="educations-list">
         {educations.map(

@@ -3,7 +3,8 @@ import PropTypes from "prop-types";
 import "./Profile.css";
 
 const Profile = ({
-  name: { first: firstName, last: lastName },
+  firstName,
+  lastName,
   role,
 }) => {
   return (
@@ -23,7 +24,8 @@ const Profile = ({
 };
 
 Profile.propTypes = {
-  name: PropTypes.object.isRequired,
+  firstName: PropTypes.string.isRequired,
+  lastName: PropTypes.string.isRequired,
   role: PropTypes.string.isRequired,
 };
 

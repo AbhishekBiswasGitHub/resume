@@ -10,22 +10,37 @@ const Experiences = ({ experiences }) => {
     <section id="experiences">
       <Heading
         content="Experiences"
-        icon="clock-rotate-left"
+        icon="fa-solid fa-clock-rotate-left"
       />
       <ul id="experiences-list">
-        {experiences.map((experience, index) => (
-          <Experience
-            key={index}
-            experience={experience}
-          />
-        ))}
+        {experiences.map(
+          (
+            {
+              role,
+              employer,
+              period,
+              achievements,
+              technologies,
+            },
+            index
+          ) => (
+            <Experience
+              key={index}
+              role={role}
+              employer={employer}
+              period={period}
+              achievements={achievements}
+              technologies={technologies}
+            />
+          )
+        )}
       </ul>
     </section>
   );
 };
 
 Experiences.propTypes = {
-  experiences: PropTypes.object.isRequired,
+  experiences: PropTypes.array.isRequired,
 };
 
 export default Experiences;

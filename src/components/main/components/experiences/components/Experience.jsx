@@ -7,20 +7,18 @@ import Technologies from "./Technologies";
 
 import "./Experience.css";
 
-const Experience = ({ experience }) => {
-  const {
-    role,
-    employer,
-    period,
-    achievements,
-    technologies,
-  } = experience;
-
+const Experience = ({
+  role,
+  employer,
+  period: { start, end },
+  achievements,
+  technologies,
+}) => {
   return (
     <li className="experience">
       <Period
-        start={period.start}
-        end={period.end}
+        start={start}
+        end={end}
       />
       <div className="experience-details">
         <Title
@@ -39,7 +37,11 @@ const Experience = ({ experience }) => {
 };
 
 Experience.propTypes = {
-  experience: PropTypes.object.isRequired,
+  role: PropTypes.string.isRequired,
+  employer: PropTypes.object,
+  period: PropTypes.object.isRequired,
+  achievements: PropTypes.array.isRequired,
+  technologies: PropTypes.array.isRequired,
 };
 
 export default Experience;

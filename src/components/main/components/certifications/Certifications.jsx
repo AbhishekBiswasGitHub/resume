@@ -10,7 +10,7 @@ const Certifications = ({ certifications }) => {
     <section id="certifications">
       <Heading
         content="certifications"
-        icon="certificate"
+        icon="fa-solid fa-certificate"
       />
       <ul id="certifications-list">
         {certifications.map(

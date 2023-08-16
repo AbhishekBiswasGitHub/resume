@@ -1,17 +1,21 @@
 import PropTypes from "prop-types";
 
-import parse from "html-react-parser";
-
 import "./Technology.css";
 
 const Technology = ({ name, url }) => {
   return (
     <li className="technology">
-      {url
-        ? parse(
-            `<a href=${url} target="_blank" rel="noreferrer" >${name}</a>`
-          )
-        : name}
+      {url ? (
+        <a
+          href={url}
+          target="_blank"
+          rel="noreferrer"
+        >
+          {name}
+        </a>
+      ) : (
+        name
+      )}
     </li>
   );
 };

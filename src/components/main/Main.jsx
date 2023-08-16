@@ -4,34 +4,52 @@ import Intro from "./components/intro/Intro";
 import Skills from "./components/skills/Skills";
 import Experiences from "./components/experiences/Experiences";
 import Educations from "./components/education/Educations";
+import Projects from "./components/projects/Projects";
 import Certifications from "./components/certifications/Certifications";
 
 import "./Main.css";
 
-const Main = ({ main }) => {
-  const {
-    intro,
-    skills,
-    experiences,
-    educations,
-    // projects,
-    certifications,
-  } = main;
+const Main = ({
+  intro,
+  skillCategories,
+  experiences,
+  educations,
+  projects,
+  certifications,
+}) => {
   return (
     <main id="main">
-      <Intro intro={intro} />
-      <Skills skills={skills} />
-      <Experiences experiences={experiences} />
-      <Educations educations={educations} />
-      <Certifications
-        certifications={certifications}
-      />
+      {intro ? <Intro intro={intro} /> : null}
+      {skillCategories.length ? (
+        <Skills
+          skillCategories={skillCategories}
+        />
+      ) : null}
+      {experiences.length ? (
+        <Experiences experiences={experiences} />
+      ) : null}
+      {educations.length ? (
+        <Educations educations={educations} />
+      ) : null}
+      {projects.length ? (
+        <Projects projects={projects} />
+      ) : null}
+      {certifications.length ? (
+        <Certifications
+          certifications={certifications}
+        />
+      ) : null}
     </main>
   );
 };
 
 Main.propTypes = {
-  main: PropTypes.object.isRequired,
+  intro: PropTypes.string.isRequired,
+  skillCategories: PropTypes.array.isRequired,
+  experiences: PropTypes.array.isRequired,
+  educations: PropTypes.array.isRequired,
+  projects: PropTypes.array.isRequired,
+  certifications: PropTypes.array.isRequired,
 };
 
 export default Main;

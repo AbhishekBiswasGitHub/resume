@@ -1,7 +1,5 @@
 .skill-category {
   display: flex;
-
-  padding-top: clamp(0.288rem, 0.8vw, 1.536rem);
 }
 
 .skill-category-name {

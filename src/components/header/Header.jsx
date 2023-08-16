@@ -5,15 +5,15 @@ import Contacts from "./components/Contacts";
 
 import "./Header.css";
 
-const Header = ({ header }) => {
-  const { profile, contacts } = header;
-  const { name, role } = profile;
-  const { personal, social } = contacts;
-
+const Header = ({
+  profile: { name, role },
+  contacts: { personal, social },
+}) => {
   return (
     <header id="header">
       <Profile
-        name={name}
+        firstName={name.first}
+        lastName={name.last}
         role={role}
       />
       <Contacts
@@ -25,7 +25,8 @@ const Header = ({ header }) => {
 };
 
 Header.propTypes = {
-  header: PropTypes.object.isRequired,
+  profile: PropTypes.object.isRequired,
+  contacts: PropTypes.object.isRequired,
 };
 
 export default Header;

@@ -7,7 +7,7 @@
   color: var(--color-text-heading);
 
   font-size: calc(var(--font-size-heading) * 0.8);
-  font-weight: 100;
+  font-weight: 900;
   text-transform: uppercase;
 }
 

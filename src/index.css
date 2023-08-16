@@ -1,24 +1,28 @@
 :root {
-  --padding-section: clamp(0.36rem, 1vw, 1.92rem);
+  --padding-section: clamp(0.72rem, 2vw, 3.84rem);
   --color-text-heading: #1a1a65;
   --color-text-content: #000;
   --color-background: #fff;
-  --font-size-heading: clamp(
+  --font-size-name: clamp(
     1.26rem,
     3.5vw,
     6.72rem
   );
-  --font-size-sub-heading: clamp(
+  --font-size-role: clamp(0.9rem, 2.5vw, 4.8rem);
+  --font-size-heading: clamp(
     0.9rem,
     2.5vw,
     4.8rem
   );
   --font-size-content: clamp(
-    /* 0.72rem,
-    2vw,
-    3.84rem */ 0.648rem,
+    0.648rem,
     1.8vw,
     3.456rem
+  );
+  --font-size-footer: clamp(
+    0.54rem,
+    1.5vw,
+    2.88rem
   );
 }
 
@@ -35,6 +39,9 @@ html {
 body {
   position: relative;
 
+  min-width: 36rem;
+  min-height: 100svh;
+
   background-color: #000;
 }
 
@@ -46,6 +53,9 @@ body {
   display: flex;
   align-items: center;
   justify-content: center;
+
+  width: 100%;
+  min-height: 100%;
 
   scroll-behavior: smooth;
 }

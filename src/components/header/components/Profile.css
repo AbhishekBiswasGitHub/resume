@@ -9,10 +9,8 @@
 
   padding-bottom: clamp(0.18rem, 0.5vw, 0.96rem);
 
-  font-size: var(--font-size-heading);
-  line-height: calc(
-    var(--font-size-heading) * 0.7
-  );
+  font-size: var(--font-size-name);
+  line-height: calc(var(--font-size-name) * 0.7);
 }
 
 #first-name {
@@ -25,7 +23,7 @@
 }
 
 #last-name {
-  font-size: calc(var(--font-size-heading) * 0.8);
+  font-size: calc(var(--font-size-name) * 0.8);
   font-weight: 900;
   text-transform: uppercase;
 }
@@ -35,8 +33,7 @@
 
   color: var(--color-text-heading);
 
-  font-size: var(--font-size-sub-heading);
-  line-height: calc(
-    var(--font-size-sub-heading) * 0.7
-  );
+  font-size: var(--font-size-role);
+  text-transform: capitalize;
+  line-height: calc(var(--font-size-role) * 0.7);
 }

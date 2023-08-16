@@ -4,7 +4,8 @@
 
 #experiences-list {
   display: flex;
-  flex-direction: column;
+  flex-direction: column-reverse;
+  gap: clamp(0.72rem, 2vw, 3.84rem);
 
   padding-top: clamp(0.36rem, 1vw, 1.92rem);
 

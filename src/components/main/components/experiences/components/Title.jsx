@@ -6,22 +6,24 @@ const Title = ({ role, employer }) => {
   return (
     <p className="employment-title">
       <span className="role">{role}</span>
-      <span>, </span>
-      <a
-        className="employer"
-        href={employer.url}
-        target="_blank"
-        rel="noreferrer"
-      >
-        {employer.name}
-      </a>
+      {employer ? ", " : ""}
+      {employer ? (
+        <a
+          className="employer"
+          href={employer.url}
+          target="_blank"
+          rel="noreferrer"
+        >
+          {employer.name}
+        </a>
+      ) : null}
     </p>
   );
 };
 
 Title.propTypes = {
   role: PropTypes.string.isRequired,
-  employer: PropTypes.object.isRequired,
+  employer: PropTypes.object,
 };
 
 export default Title;
