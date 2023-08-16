@@ -1,0 +1,10 @@
+.certification {
+  font-size: var(--font-size-content);
+}
+
+.certification > a {
+  color: inherit;
+
+  font-weight: 900;
+  text-decoration: none;
+}

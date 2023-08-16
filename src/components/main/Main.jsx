@@ -3,9 +3,10 @@ import PropTypes from "prop-types";
 import Intro from "./components/intro/Intro";
 import Skills from "./components/skills/Skills";
 import Experiences from "./components/experiences/Experiences";
+import Educations from "./components/education/Educations";
+import Certifications from "./components/certifications/Certifications";
 
 import "./Main.css";
-import Educations from "./components/education/Educations";
 
 const Main = ({ main }) => {
   const {
@@ -14,7 +15,7 @@ const Main = ({ main }) => {
     experiences,
     educations,
     // projects,
-    // certifications,
+    certifications,
   } = main;
   return (
     <main id="main">
@@ -22,6 +23,9 @@ const Main = ({ main }) => {
       <Skills skills={skills} />
       <Experiences experiences={experiences} />
       <Educations educations={educations} />
+      <Certifications
+        certifications={certifications}
+      />
     </main>
   );
 };

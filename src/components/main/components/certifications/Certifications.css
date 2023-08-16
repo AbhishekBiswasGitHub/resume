@@ -1,0 +1,13 @@
+#certifications {
+  padding-top: var(--padding-section);
+}
+
+#certifications-list {
+  display: flex;
+  flex-direction: column;
+  gap: clamp(0.18rem, 0.5vw, 0.96rem);
+
+  padding-top: clamp(0.36rem, 1vw, 1.92rem);
+
+  list-style-position: inside;
+}
