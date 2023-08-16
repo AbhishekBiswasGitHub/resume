@@ -1,0 +1,12 @@
+#educations {
+  padding-top: var(--padding-section);
+}
+
+#educations-list {
+  display: flex;
+  flex-direction: column;
+
+  padding-top: clamp(0.36rem, 1vw, 1.92rem);
+
+  list-style-type: none;
+}
