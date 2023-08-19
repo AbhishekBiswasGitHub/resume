@@ -11,25 +11,22 @@
   grid-column: 2;
 
   font-size: calc(var(--font-size-footer) * 0.8);
+  font-variant: small-caps;
   text-align: center;
-  text-transform: uppercase;
-}
-
-.author-name-first-letter {
-  font-size: var(--font-size-footer);
+  text-transform: capitalize;
 }
 
 #updated-on {
   grid-column: 3;
 
   font-size: calc(var(--font-size-footer) * 0.8);
+  font-variant: small-caps;
   text-align: right;
-  text-transform: uppercase;
 }
 
 #updated-on-date {
   padding-left: clamp(0.18rem, 0.5vw, 0.96rem);
 
-  font-size: calc(var(--font-size-footer) * 0.9);
+  font-size: var(--font-size-footer);
   font-weight: 900;
 }
