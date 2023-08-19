@@ -8,7 +8,7 @@ import "./App.css";
 
 const App = () => {
   const {
-    header: { profile, contacts },
+    header: { profile, contacts, pdf },
     main: {
       intro,
       skillCategories,
@@ -25,6 +25,7 @@ const App = () => {
       <Header
         profile={profile}
         contacts={contacts}
+        pdf={pdf}
       />
       <Main
         intro={intro}

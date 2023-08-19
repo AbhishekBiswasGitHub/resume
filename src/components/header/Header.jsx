@@ -8,6 +8,7 @@ import "./Header.css";
 const Header = ({
   profile: { name, role },
   contacts: { personal, social },
+  pdf,
 }) => {
   return (
     <header id="header">
@@ -15,6 +16,7 @@ const Header = ({
         firstName={name.first}
         lastName={name.last}
         role={role}
+        pdf={pdf}
       />
       <Contacts
         personal={personal}
@@ -27,6 +29,7 @@ const Header = ({
 Header.propTypes = {
   profile: PropTypes.object.isRequired,
   contacts: PropTypes.object.isRequired,
+  pdf: PropTypes.string.isRequired,
 };
 
 export default Header;

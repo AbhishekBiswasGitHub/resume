@@ -4,6 +4,20 @@
   justify-content: center;
 }
 
+#pdf-container {
+  display: flex;
+  justify-content: space-between;
+
+  width: 100%;
+}
+
+#pdf {
+  color: var(--color-text-heading);
+
+  font-size: var(--font-size-content);
+  text-decoration: none;
+}
+
 #name {
   color: var(--color-text-heading);
 
@@ -18,14 +32,11 @@
   text-transform: capitalize;
 }
 
-#last-name-first-letter {
-  text-transform: uppercase;
-}
-
 #last-name {
-  font-size: calc(var(--font-size-name) * 0.8);
+  font-size: var(--font-size-name);
   font-weight: 900;
-  text-transform: uppercase;
+  font-variant: small-caps;
+  text-transform: capitalize;
 }
 
 #role {

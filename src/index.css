@@ -1,6 +1,6 @@
 :root {
   --padding-section: clamp(0.72rem, 2vw, 3.84rem);
-  --color-text-heading: #1a1a65;
+  --color-text-heading: #000066;
   --color-text-content: #000;
   --color-background: #fff;
   --font-size-name: clamp(
