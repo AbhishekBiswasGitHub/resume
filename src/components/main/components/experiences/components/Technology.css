@@ -1,11 +1,12 @@
 .technology {
-  padding: 0 clamp(0.18rem, 0.5vw, 0.96rem);
+  padding: clamp(0.1rem, 0.3vw, 0.576rem)
+    clamp(0.27rem, 0.75vw, 1.44rem);
 
   border: clamp(0.1rem, 0.1vw, 0.192rem) solid
     var(--color-text-content);
   border-radius: clamp(0.36rem, 1vw, 1.92rem);
 
-  font-size: calc(var(--font-size-content) * 0.8);
+  font-size: calc(var(--font-size-content) * 0.7);
   font-weight: 900;
 }
 
