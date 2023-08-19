@@ -9,8 +9,8 @@ const Experiences = ({ experiences }) => {
   return (
     <section id="experiences">
       <Heading
-        content="Experiences"
-        icon="fa-solid fa-clock-rotate-left"
+        content="experiences"
+        icon="experiences"
       />
       <ul id="experiences-list">
         {experiences.map(

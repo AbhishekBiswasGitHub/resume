@@ -10,7 +10,7 @@ const Skills = ({ skillCategories }) => {
     <section id="skills">
       <Heading
         content="skills"
-        icon="fa-solid fa-screwdriver-wrench"
+        icon="skills"
       />
       <ul id="skill-categories">
         {skillCategories.map(

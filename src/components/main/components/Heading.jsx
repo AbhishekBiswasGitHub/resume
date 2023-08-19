@@ -1,12 +1,14 @@
 import PropTypes from "prop-types";
 
+import Icon from "../../Icon";
+
 import "./Heading.css";
 
 const Heading = ({ content, icon }) => {
   return (
     <h3 className="heading">
-      <i className={icon}></i>
-      {content}
+      <Icon icon={icon} />
+      <span>{content}</span>
     </h3>
   );
 };

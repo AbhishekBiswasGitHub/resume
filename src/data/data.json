@@ -12,44 +12,44 @@
         {
           "content": "abhishekbiswas.netlify.app",
           "url": "https://abhishekbiswas.netlify.app",
-          "icon": "fa-solid fa-globe"
+          "icon": "web"
         },
         {
           "content": "(+91) 8013623123",
           "url": "tel:+918013623123",
-          "icon": "fa-solid fa-phone"
+          "icon": "phone"
         },
         {
           "content": "abhishek.biswas.mail@gmail.com",
           "url": "mailto:abhishek.biswas.mail@gmail.com",
-          "icon": "fa-solid fa-at"
+          "icon": "mail"
         },
         {
           "content": "Barasat, Kolkata - 700125",
           "url": "https://goo.gl/maps/hjXLLAfF7WWMSkJ66",
-          "icon": "fa-solid fa-location-dot"
+          "icon": "address"
         }
       ],
       "social": [
         {
           "content": "linkedin.com/in/abhishek-biswas-ld",
           "url": "https://linkedin.com/in/abhishek-biswas-ld",
-          "icon": "fa-brands fa-linkedin"
+          "icon": "linkedin"
         },
         {
           "content": "github.com/AbhishekBiswasGitHub",
           "url": "https://github.com/AbhishekBiswasGitHub",
-          "icon": "fa-brands fa-github"
+          "icon": "github"
         },
         {
           "content": "hackerrank.com/AbhishekBiswasHR",
           "url": "https://hackerrank.com/AbhishekBiswasHR",
-          "icon": "fa-brands fa-hackerrank"
+          "icon": "hackerrank"
         },
         {
           "content": "leetcode.com/AbhishekBiswasLC",
           "url": "https://leetcode.com/AbhishekBiswasLC",
-          "icon": "fa-solid fa-code"
+          "icon": "leetcode"
         }
       ]
     },

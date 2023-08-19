@@ -1,5 +1,7 @@
 import PropTypes from "prop-types";
 
+import Icon from "../../Icon";
+
 import "./Contact.css";
 
 const Contact = ({ content, url, icon }) => {
@@ -10,8 +12,8 @@ const Contact = ({ content, url, icon }) => {
         target="_blank"
         rel="noreferrer"
       >
-        <i className={icon}></i>
-        {content}
+        <Icon icon={icon} />
+        <span>{content}</span>
       </a>
     </li>
   );

@@ -11,11 +11,8 @@
   width: 100%;
 }
 
-#pdf {
-  color: var(--color-text-heading);
-
-  font-size: var(--font-size-content);
-  text-decoration: none;
+#pdf .icon {
+  width: var(--font-size-content);
 }
 
 #name {

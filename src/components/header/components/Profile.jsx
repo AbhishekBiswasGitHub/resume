@@ -1,5 +1,7 @@
 import PropTypes from "prop-types";
 
+import Icon from "../../Icon";
+
 import "./Profile.css";
 
 const Profile = ({
@@ -23,7 +25,7 @@ const Profile = ({
           target="_blank"
           rel="noreferrer"
         >
-          <i className="fa-solid fa-file"></i>
+          <Icon icon="pdf" />
         </a>
       </div>
       <h2 id="role">{role}</h2>

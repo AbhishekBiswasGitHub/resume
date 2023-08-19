@@ -12,8 +12,8 @@
   text-transform: capitalize;
 }
 
-.heading > i {
+.heading .icon {
   padding-right: clamp(0.36rem, 1vw, 1.92rem);
 
-  font-size: calc(var(--font-size-heading) * 0.8);
+  width: calc(var(--font-size-heading) * 1.1);
 }
