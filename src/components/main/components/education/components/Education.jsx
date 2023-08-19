@@ -26,7 +26,7 @@ const Education = ({
         >
           {instituteName}
         </a>
-        {` from `}
+        {` under `}
         <a
           href={boardUrl}
           target="_blank"
