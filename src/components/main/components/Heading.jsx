@@ -6,10 +6,7 @@ const Heading = ({ content, icon }) => {
   return (
     <h3 className="heading">
       <i className={icon}></i>
-      <span className="heading-first-letter">
-        {content[0]}
-      </span>
-      {content.substring(1, content.length)}
+      {content}
     </h3>
   );
 };

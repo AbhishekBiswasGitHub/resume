@@ -10,9 +10,9 @@
   );
   --font-size-role: clamp(0.9rem, 2.5vw, 4.8rem);
   --font-size-heading: clamp(
-    0.9rem,
-    2.5vw,
-    4.8rem
+    1rem,
+    2.8vw,
+    5.376rem
   );
   --font-size-content: clamp(
     0.648rem,

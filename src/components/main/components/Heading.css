@@ -6,15 +6,14 @@
 
   color: var(--color-text-heading);
 
-  font-size: calc(var(--font-size-heading) * 0.8);
-  font-weight: 900;
-  text-transform: uppercase;
-}
-
-.heading-first-letter {
   font-size: var(--font-size-heading);
+  font-weight: 900;
+  font-variant: small-caps;
+  text-transform: capitalize;
 }
 
 .heading > i {
   padding-right: clamp(0.36rem, 1vw, 1.92rem);
+
+  font-size: calc(var(--font-size-heading) * 0.8);
 }
