@@ -56,7 +56,7 @@
     "pdf": "drive.google.com/file/d/1SBLz7DaFm7evegsiSkhIwSOBG1x7mpy1/view"
   },
   "main": {
-    "intro": "A self-taught ReactJS enthusiast eager to embark on a new journey within the realm of web development, backed by a robust 5+ year background in software development.",
+    "intro": "Experienced ReactJS Developer with 3+ Years of Expertise Ready to Elevate Your Web Applications.",
     "skillCategories": [
       { "category": "expert", "skills": [] },
       {
@@ -115,7 +115,7 @@
         },
         "achievements": [
           {
-            "content": "Over a span of 3 years, diligently nurtured and expanded \"pipeISO\" - an innovative software tool utilizing CATIA - enriching it with 30+ new features. This program seamlessly translates 3D CAD designs into precise 2D isometric representations, enhancing the efficiency of piping design.",
+            "content": "Elevated our in-house solution, 'pipeISO,' to transform 3D piping designs into accurate 2D isometric representations, incorporating 30+ new features with VB.NET.",
             "link": [
               {
                 "text": "pipeISO",
@@ -125,9 +125,14 @@
             "bold": ["30+"]
           },
           {
-            "content": "Engineered a diverse array of 10+ innovative solutions catering to dynamic industries such as Energy & Power, Shipbuilding, Mining, and Automotive.",
+            "content": "Engineered a diverse array of 10+ innovative solutions using VB.NET, catering to dynamic industries such as Energy & Power, Shipbuilding, Mining, and Automotive.",
             "link": [],
             "bold": ["10+"]
+          },
+          {
+            "content": "Contributed to the successful implementation of critical user interface components with ReactJS in multiple projects, enhancing overall user experience and functionality.",
+            "link": [],
+            "bold": []
           }
         ],
         "technologies": [
@@ -136,20 +141,24 @@
             "url": ""
           },
           {
-            "name": "CAD",
+            "name": "JavaScript",
             "url": ""
           },
           {
-            "name": "CATIA",
-            "url": "https://www.3ds.com/products-services/catia/"
+            "name": "ReactJS",
+            "url": ""
           },
           {
-            "name": "3D Experience",
-            "url": "https://www.3ds.com/3dexperience"
+            "name": "HTML",
+            "url": ""
           },
           {
-            "name": "EKL",
-            "url": "https://plmcoach.com/3dexperience-ekl-basics/"
+            "name": "CSS",
+            "url": ""
+          },
+          {
+            "name": "GIT",
+            "url": ""
           }
         ]
       },
@@ -162,19 +171,27 @@
         },
         "achievements": [
           {
-            "content": "Crafted custom VB.NET solutions for diverse clients across industries, streamlining processes and enhancing operational efficiency.",
+            "content": "Achieved expertise in web development through the successful completion of a variety of projects of moderate scale.",
             "link": [],
             "bold": []
           },
           {
-            "content": "Pioneered web development skills through hands-on creation of elegant and functional portfolio websites for varied clients.",
+            "content": "Gained diverse experience handling independent projects, showcasing resourcefulness and adaptability, ready to contribute effectively with a versatile skill set.",
             "link": [],
             "bold": []
           }
         ],
         "technologies": [
           {
-            "name": "VB.NET",
+            "name": "JavaScript",
+            "url": ""
+          },
+          {
+            "name": "NodeJS",
+            "url": ""
+          },
+          {
+            "name": "ReactJS",
             "url": ""
           },
           {
@@ -183,14 +200,6 @@
           },
           {
             "name": "CSS",
-            "url": ""
-          },
-          {
-            "name": "JavaScript",
-            "url": ""
-          },
-          {
-            "name": "ReactJS",
             "url": ""
           },
           {

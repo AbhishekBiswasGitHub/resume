@@ -29,7 +29,7 @@
   background-color: var(--color-background);
   color: var(--color-text-content);
 
-  font-family: Play;
+  font-family: Play, serif;
 }
 
 .bold {
