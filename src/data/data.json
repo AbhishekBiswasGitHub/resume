@@ -115,7 +115,7 @@
         },
         "achievements": [
           {
-            "content": "Elevated our in-house solution, 'pipeISO,' to transform 3D piping designs into accurate 2D isometric representations, incorporating 30+ new features with VB.NET.",
+            "content": "Elevated our in-house solution, 'pipeISO', that transforms 3D piping designs into accurate 2D isometric representations, incorporating 30+ new features with VB.NET.",
             "link": [
               {
                 "text": "pipeISO",
@@ -171,7 +171,7 @@
         },
         "achievements": [
           {
-            "content": "Achieved expertise in web development through the successful completion of a variety of projects of moderate scale.",
+            "content": "Achieved proficiency in web development through the successful completion of a variety of projects of moderate scale.",
             "link": [],
             "bold": []
           },
@@ -265,6 +265,6 @@
       "firstName": "abhishek",
       "lastName": "biswas"
     },
-    "updatedOn": "19th aug 2023"
+    "updatedOn": "12th sep 2023"
   }
 }
