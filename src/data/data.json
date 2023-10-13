@@ -56,9 +56,12 @@
     "pdf": "abhishekbiswas.onrender.com/api/resume"
   },
   "main": {
-    "intro": "Experienced ReactJS Developer with 3+ Years of Expertise Ready to Elevate Your Web Applications.",
+    "intro": "Versatile ReactJS Developer with 5+ years of total experience, 3+ years of expertise, and a proven track record in professional and freelance work.",
     "skillCategories": [
-      { "category": "expert", "skills": [] },
+      {
+        "category": "expert",
+        "skills": []
+      },
       {
         "category": "proficient",
         "skills": [
@@ -163,8 +166,11 @@
         ]
       },
       {
-        "role": "Freelance Developer",
-        "employer": null,
+        "role": "ReactJS Developer",
+        "employer": {
+          "name": "Self Employed",
+          "url": ""
+        },
         "period": {
           "start": "aug 2021",
           "end": "present"

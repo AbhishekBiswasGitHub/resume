@@ -8,14 +8,20 @@ const Title = ({ role, employer }) => {
       <span className="role">{role}</span>
       {employer ? ", " : ""}
       {employer ? (
-        <a
-          className="employer"
-          href={employer.url}
-          target="_blank"
-          rel="noreferrer"
-        >
-          {employer.name}
-        </a>
+        employer.url ? (
+          <a
+            className="employer"
+            href={employer.url}
+            target="_blank"
+            rel="noreferrer"
+          >
+            {employer.name}
+          </a>
+        ) : (
+          <span className="employer">
+            {employer.name}
+          </span>
+        )
       ) : null}
     </p>
   );
