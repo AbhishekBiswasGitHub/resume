@@ -22,8 +22,6 @@ const Profile = ({
         <a
           id="pdf"
           href={`https://${pdf}`}
-          target="_blank"
-          rel="noreferrer"
         >
           <Icon icon="pdf" />
         </a>
