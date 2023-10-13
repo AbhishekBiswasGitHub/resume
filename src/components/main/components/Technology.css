@@ -9,9 +9,3 @@
   font-size: calc(var(--font-size-content) * 0.7);
   font-weight: 900;
 }
-
-.technology > a {
-  color: inherit;
-
-  text-decoration: none;
-}

@@ -1,3 +1,5 @@
 #intro {
+  padding-bottom: clamp(0.36rem, 1vw, 1.92rem);
+
   font-size: var(--font-size-content);
 }

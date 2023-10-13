@@ -139,30 +139,12 @@
           }
         ],
         "technologies": [
-          {
-            "name": "VB.NET",
-            "url": ""
-          },
-          {
-            "name": "JavaScript",
-            "url": ""
-          },
-          {
-            "name": "ReactJS",
-            "url": ""
-          },
-          {
-            "name": "HTML",
-            "url": ""
-          },
-          {
-            "name": "CSS",
-            "url": ""
-          },
-          {
-            "name": "GIT",
-            "url": ""
-          }
+          "VB.NET",
+          "JavaScript",
+          "ReactJS",
+          "HTML",
+          "CSS",
+          "GIT"
         ]
       },
       {
@@ -188,30 +170,12 @@
           }
         ],
         "technologies": [
-          {
-            "name": "JavaScript",
-            "url": ""
-          },
-          {
-            "name": "NodeJS",
-            "url": ""
-          },
-          {
-            "name": "ReactJS",
-            "url": ""
-          },
-          {
-            "name": "HTML",
-            "url": ""
-          },
-          {
-            "name": "CSS",
-            "url": ""
-          },
-          {
-            "name": "GIT",
-            "url": ""
-          }
+          "JavaScript",
+          "NodeJS",
+          "ReactJS",
+          "HTML",
+          "CSS",
+          "GIT"
         ]
       }
     ],
@@ -230,7 +194,22 @@
         "year": "2017"
       }
     ],
-    "projects": [],
+    "projects": [
+      {
+        "name": "Sorting Algorithm Visualizer",
+        "year": "oct 2023",
+        "live": "viz-sorting-algo.netlify.app",
+        "source": "github.com/AbhishekBiswasGitHub/sorting-algo-visualizer",
+        "description": "Visualize and understand a variety of sorting algorithms, ranging from classic Bubble Sort to efficient techniques like Quick Sort, while receiving a real-time, hands-on educational experience.",
+        "technologies": [
+          "ReactJS",
+          "JavaScript",
+          "HTML",
+          "CSS",
+          "GIT"
+        ]
+      }
+    ],
     "certifications": [
       {
         "subject": "Responsive Web Design",
@@ -271,6 +250,6 @@
       "firstName": "abhishek",
       "lastName": "biswas"
     },
-    "updatedOn": "12th sep 2023"
+    "updatedOn": "14th oct 2023"
   }
 }

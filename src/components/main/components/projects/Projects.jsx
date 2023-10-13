@@ -1,6 +1,7 @@
 import PropTypes from "prop-types";
 
 import Heading from "../Heading";
+import Project from "./components/Project";
 
 import "./Projects.css";
 
@@ -9,12 +10,32 @@ const Projects = ({ projects }) => {
     <section id="projects">
       <Heading
         content="projects"
-        icon="fa-solid fa-diagram-project"
+        icon="projects"
       />
       <ul id="projects-list">
-        {projects.map(({ title }, index) => (
-          <li key={index}>{title}</li>
-        ))}
+        {projects.map(
+          (
+            {
+              name,
+              year,
+              live,
+              source,
+              description,
+              technologies,
+            },
+            index
+          ) => (
+            <Project
+              key={index}
+              name={name}
+              year={year}
+              live={live}
+              source={source}
+              description={description}
+              technologies={technologies}
+            />
+          )
+        )}
       </ul>
     </section>
   );

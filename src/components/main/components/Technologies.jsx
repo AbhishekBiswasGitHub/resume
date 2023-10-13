@@ -7,15 +7,12 @@ import "./Technologies.css";
 const Technologies = ({ technologies }) => {
   return (
     <ul className="technologies">
-      {technologies.map(
-        ({ name, url }, index) => (
-          <Technology
-            key={index}
-            name={name}
-            url={url}
-          />
-        )
-      )}
+      {technologies.map((technology, index) => (
+        <Technology
+          key={index}
+          technology={technology}
+        />
+      ))}
     </ul>
   );
 };

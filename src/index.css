@@ -1,5 +1,5 @@
 :root {
-  --padding-section: clamp(0.72rem, 2vw, 3.84rem);
+  --padding-section: clamp(0.36rem, 1vw, 1.92rem);
   --color-text-heading: #000066;
   --color-text-content: #000;
   --color-background: #fff;
@@ -15,9 +15,9 @@
     5.376rem
   );
   --font-size-content: clamp(
-    0.648rem,
-    1.8vw,
-    3.456rem
+    0.63rem,
+    1.75vw,
+    3.36rem
   );
   --font-size-footer: clamp(
     0.54rem,

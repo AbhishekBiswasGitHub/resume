@@ -3,7 +3,7 @@ import PropTypes from "prop-types";
 import Period from "./Period";
 import Title from "./Title";
 import Achievements from "./Achievements";
-import Technologies from "./Technologies";
+import Technologies from "../../Technologies";
 
 import "./Experience.css";
 

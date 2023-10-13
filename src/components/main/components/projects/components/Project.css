@@ -1,0 +1,16 @@
+.project {
+  display: flex;
+  flex-direction: column;
+  gap: clamp(0.144rem, 0.4vw, 0.768rem);
+
+  font-size: var(--font-size-content);
+}
+
+.title {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+
+  font-weight: 900;
+  font-variant: small-caps;
+}
