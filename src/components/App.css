@@ -26,6 +26,8 @@
   padding: clamp(2.16rem, 6vw, 11.52rem);
   padding-bottom: 0;
 
+  box-shadow: 0 0 2rem #000;
+
   background-color: var(--color-background);
   color: var(--color-text-content);
 
