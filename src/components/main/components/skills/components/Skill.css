@@ -3,6 +3,7 @@
 }
 
 .skill-category-name {
+  flex-shrink: 0;
   width: clamp(4.32rem, 12vw, 23.04rem);
 
   font-size: var(--font-size-content);
