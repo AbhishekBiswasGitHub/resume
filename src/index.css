@@ -15,9 +15,9 @@
     5.376rem
   );
   --font-size-content: clamp(
-    0.63rem,
-    1.75vw,
-    3.36rem
+    0.594rem,
+    1.65vw,
+    3.168rem
   );
   --font-size-footer: clamp(
     0.54rem,
