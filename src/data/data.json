@@ -5,7 +5,7 @@
         "first": "abhishek",
         "last": "biswas"
       },
-      "role": "reactJS developer"
+      "role": "front-end/reactJS developer"
     },
     "contacts": {
       "personal": [
@@ -56,7 +56,7 @@
     "pdf": "abhishekbiswas.onrender.com/api/resume"
   },
   "main": {
-    "intro": "Versatile ReactJS Developer with 5+ years of total experience, 3+ years of expertise, and a proven track record in professional and freelance work.",
+    "intro": "Versatile ReactJS Developer with 5+ years of total experience, 3+ years of expertise, and a proven track record in professional and freelance work. Seeking a full-time position to leverage my skills, contribute to a dynamic team, and take on new challenges in a collaborative work environment.",
     "skillCategories": [
       {
         "category": "expert",
@@ -76,21 +76,29 @@
       {
         "category": "intermediate",
         "skills": [
+          "React Router",
           "ReduxJS",
           "ExpressJS",
           "MongoDB",
           "MongooseJS",
+          "Jest",
+          "React Testing Library",
           "SASS"
         ]
       },
       {
         "category": "basic",
-        "skills": ["GatsbyJS", "NextJS"]
+        "skills": [
+          "GraphQL",
+          "GatsbyJS",
+          "NextJS"
+        ]
       },
       {
         "category": "devTools",
         "skills": [
           "VSCode",
+          "Vite",
           "ESLint",
           "Prettier",
           "HuskyJS",
@@ -148,7 +156,7 @@
         ]
       },
       {
-        "role": "ReactJS Developer",
+        "role": "Freelance Developer",
         "employer": {
           "name": "Self Employed",
           "url": ""
@@ -250,6 +258,6 @@
       "firstName": "abhishek",
       "lastName": "biswas"
     },
-    "updatedOn": "14th oct 2023"
+    "updatedOn": "26th jan 2024"
   }
 }
