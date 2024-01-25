@@ -14,13 +14,18 @@
 }
 
 .skills {
+  display: flex;
+  flex-wrap: wrap;
+  gap: clamp(0.1rem, 0.25vw, 0.48rem)
+    clamp(0.36rem, 1vw, 1.92rem);
+
   padding-left: clamp(0.72rem, 2vw, 3.84rem);
 
   font-size: var(--font-size-content);
 }
 
 .skill {
-  padding: 0 clamp(0.36rem, 1vw, 1.92rem);
+  padding-right: clamp(0.36rem, 1vw, 1.92rem);
 
   border-right: clamp(0.1rem, 0.2vw, 0.384rem)
     solid var(--color-text-content);

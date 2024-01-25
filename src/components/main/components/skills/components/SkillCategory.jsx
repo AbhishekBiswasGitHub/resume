@@ -1,6 +1,6 @@
 import PropTypes from "prop-types";
 
-import "./Skill.css";
+import "./Skill-Category.css";
 
 const Skill = ({ category, skills }) => {
   return (

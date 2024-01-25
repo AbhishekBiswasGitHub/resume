@@ -1,7 +1,7 @@
 import PropTypes from "prop-types";
 
 import Heading from "../Heading";
-import Skill from "./components/Skill";
+import SkillCategory from "./components/SkillCategory";
 
 import "./Skills.css";
 
@@ -16,7 +16,7 @@ const Skills = ({ skillCategories }) => {
         {skillCategories.map(
           ({ category, skills }, index) =>
             skills.length ? (
-              <Skill
+              <SkillCategory
                 key={index}
                 category={category}
                 skills={skills}
